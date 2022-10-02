@@ -42,9 +42,7 @@
                             </p>
                         </div>
                         <div class="col-md-10 offset-md-2">
-                            <div class="sub_from row my-4">
-                               <?php echo do_shortcode('[contact-form-7 id="7" title="Contact form 1"]'); ?>
-                            </div>
+                            <?php echo do_shortcode('[contact-form-7 id="7" title="Contact form 1"]'); ?>
                         </div>
 
                     </div>
