@@ -41,11 +41,13 @@
                                 <a href="mailto:<?= setting('email') ?>"><?= setting('email') ?></a>
                             </p>
                         </div>
-                    </div>
+                        <div class="col-md-10 offset-md-2">
+                            <div class="sub_from row my-4">
+                               <?php echo do_shortcode('[contact-form-7 id="7" title="Contact form 1"]'); ?>
+                            </div>
+                        </div>
 
-                    <?php
-                   echo do_shortcode('[wpforms id="2490" title="false"]');
-                    ?>
+                    </div>
                 </div>
             </div>
         </div>

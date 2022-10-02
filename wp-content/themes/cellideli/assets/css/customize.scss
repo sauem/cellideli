@@ -86,6 +86,10 @@ main {
   }
 }
 
+.hero_search_form button, .footer_top .sub_from button {
+  position: relative;
+}
+
 .product_title {
   font-size: 40px;
   font-weight: 500;
@@ -95,15 +99,18 @@ main {
 .product_meta {
   display: none;
 }
-.box-white{
+
+.box-white {
   color: white;
   padding: 10px 0;
 }
+
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
-  background-color: $orange!important;
-  margin-top: 10px!important;
+  background-color: $orange !important;
+  margin-top: 10px !important;
 }
-.woocommerce .quantity .qty{
+
+.woocommerce .quantity .qty {
   min-width: 150px;
 }
 
