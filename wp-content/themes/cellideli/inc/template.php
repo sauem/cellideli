@@ -14,6 +14,14 @@ function postImg()
     }
     return $url;
 }
+function info($key)
+{
+    $result = get_post_meta(71, $key, TRUE);
+    if (!$result) {
+        return '';
+    }
+    return $result;
+}
 
 function setting($key)
 {

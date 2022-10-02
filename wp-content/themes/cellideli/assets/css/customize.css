@@ -52,6 +52,20 @@ main {
 .hero_search_form button, .footer_top .sub_from button {
   position: relative; }
 
+.sub_from input[type="submit"] {
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 30px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: .3s;
+  background: #ff8e28;
+  border-radius: 7px; }
+
 .product_title {
   font-size: 40px;
   font-weight: 500;

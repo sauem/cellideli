@@ -25,20 +25,20 @@
                 <div class="col-md-10 offset-md-1 text-white">
                     <div class="row">
                         <div class="col-md-6">
-                            <p><?= setting('address_1') ?></p>
-                            <p><?= setting('address_2') ?></p>
+                            <p><?= info('address_1') ?></p>
+                            <p><?= info('address_2') ?></p>
                         </div>
                         <div class="col-md-6">
                             <p>
-                                <a href="tel:<?= setting('hotline_1') ?>"><?= setting('hotline_1') ?></a>
+                                <a href="tel:<?= info('hotline_1') ?>"><?= info('hotline_1') ?></a>
                             </p>
                             <p>
-                                <a href="tel:<?= setting('hotline_1') ?>"><?= setting('hotline_2') ?></a>
+                                <a href="tel:<?= info('hotline_1') ?>"><?= info('hotline_2') ?></a>
                             </p>
                         </div>
                         <div class="col-md-6">
                             <p>
-                                <a href="mailto:<?= setting('email') ?>"><?= setting('email') ?></a>
+                                <a href="mailto:<?= info('email') ?>"><?= info('email') ?></a>
                             </p>
                         </div>
                         <div class="col-md-10 offset-md-2">
