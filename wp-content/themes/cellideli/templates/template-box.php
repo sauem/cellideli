@@ -20,3 +20,18 @@ if (have_posts()):
 endif;
 
 get_footer();
+?>
+
+<script>
+    $('.slider').owlCarousel({
+        loop: true,
+        items: 1,
+        center: true,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsiveClass: true,
+        nav: false,
+        dots: false,
+    });
+
+</script>
