@@ -25,10 +25,21 @@
                 <div class="col-md-10 offset-md-1 text-white">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>19227 Katy Fwy Suite #300 Houston, TX 77094</p>
+                            <p><?= setting('address_1') ?></p>
+                            <p><?= setting('address_2') ?></p>
                         </div>
                         <div class="col-md-6">
-                            <p>19227 Katy Fwy Suite #300 Houston, TX 77094</p>
+                            <p>
+                                <a href="tel:<?= setting('hotline_1') ?>"><?= setting('hotline_1') ?></a>
+                            </p>
+                            <p>
+                                <a href="tel:<?= setting('hotline_1') ?>"><?= setting('hotline_2') ?></a>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                <a href="mailto:<?= setting('email') ?>"><?= setting('email') ?></a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -40,12 +51,12 @@
             <div class="copyright_wrap">
                 <div class="row align-items-center">
                     <div class="col-md-9">
-                       <div class="d-flex justify-content-start align-items-center">
-                           <div class="logo">
-                               <img width="50" src="<?= ASSET ?>/img/logo-bot.jpeg" />
-                           </div>
-                           <a href="/" class="text-white" style="margin-left: 20px">https://www.cellidelikaty.com</a>
-                       </div>
+                        <div class="d-flex justify-content-start align-items-center">
+                            <div class="logo">
+                                <img width="50" src="<?= ASSET ?>/img/logo-bot.jpeg"/>
+                            </div>
+                            <a href="/" class="text-white" style="margin-left: 20px">https://www.cellidelikaty.com</a>
+                        </div>
                     </div>
 
                     <div class="col-lg-3 col-md-12">

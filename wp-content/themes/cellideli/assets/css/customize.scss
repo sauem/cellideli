@@ -69,7 +69,19 @@ main {
     }
   }
 }
-
+.header_carts{
+  a{
+    margin: 0 10px;
+    &:hover{
+      i{
+        color: $orange;
+      }
+    }
+    i{
+      font-size: 25px;
+    }
+  }
+}
 .entry-header {
   background-color: $dark !important;
 

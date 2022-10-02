@@ -42,6 +42,13 @@ main {
       font-weight: bold;
       color: black; }
 
+.header_carts a {
+  margin: 0 10px; }
+  .header_carts a:hover i {
+    color: #ff7f24; }
+  .header_carts a i {
+    font-size: 25px; }
+
 .entry-header {
   background-color: #1a1a1a !important; }
   .entry-header .entry-title {

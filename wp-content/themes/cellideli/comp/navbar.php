@@ -21,12 +21,16 @@
                 <div class="col-md-3 col-6">
                     <div class="header_right ul_li_left text-left">
                         <div class="header_carts ul_li">
-                            <a class="icon cart_wishlist d-none d-lg-block" href="#">
-                                <i class="fal fa-heart"></i>
-                            </a>
-                            <a class="icon cart_wishlist d-none d-lg-block" href="#">
-                                <i class="fal fa-heart"></i>
-                            </a>
+                            <a href="#" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-dark"><i class="fal fa-shopping-basket"></i></a>
+<!--                            -->
+<!--                            <a class="icon cart_wishlist d-none d-lg-block" href="#">-->
+<!--                                <i class="fal fa-heart"></i>-->
+<!--                            </a>-->
+<!--                            <a class="icon cart_wishlist d-none d-lg-block" href="#">-->
+<!--                                <i class="fal fa-heart"></i>-->
+<!--                            </a>-->
                         </div>
                     </div>
                 </div>
