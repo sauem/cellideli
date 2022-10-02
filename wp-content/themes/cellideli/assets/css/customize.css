@@ -47,6 +47,9 @@ main {
   .entry-header .entry-title {
     color: #ff7f24; }
 
+.entry-content section {
+  padding: 0 !important; }
+
 section.content section {
   padding: 0 !important; }
 
