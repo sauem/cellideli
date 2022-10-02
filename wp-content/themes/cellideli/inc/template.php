@@ -17,7 +17,7 @@ function postImg()
 
 function setting($key)
 {
-    $id = (get_the_ID() && is_front_page()) ? get_the_ID() : 71;
+    $id = (get_the_ID() && !is_front_page()) ? get_the_ID() : 71;
     $result = get_post_meta($id, $key, TRUE);
     if (!$result) {
         return '';
