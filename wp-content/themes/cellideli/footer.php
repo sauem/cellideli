@@ -44,7 +44,7 @@
                     </div>
 
                     <?php
-                    do_shortcode('[wpforms id="2490"]');
+                   echo do_shortcode('[wpforms id="2490" title="false"]');
                     ?>
                 </div>
             </div>
