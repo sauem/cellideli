@@ -109,10 +109,10 @@ get_header();
                                             <img src="<?= ASSET ?>/img/icon/quote.png" alt="">
                                         </div>
                                     </div>
-                                    <p><?= get_the_excerpt() ?></p>
+                                    <p class="text-dark"><?= get_the_excerpt() ?></p>
                                     <div class="tm_bottom ul_li justify-content-between">
                                         <div class="a_info">
-                                            <h4><?= get_the_title() ?></h4>
+                                            <h4 class="text-dark"><?= get_the_title() ?></h4>
                                         </div>
                                         <div class="rating_wrap">
                                             <ul class="rating_star ul_li">
