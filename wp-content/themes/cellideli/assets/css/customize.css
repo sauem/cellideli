@@ -1,0 +1,86 @@
+body {
+  background: #1a1a1a; }
+
+.txt-bold {
+  font-weight: bold;
+  color: #ff7f24; }
+
+.main_menu li a {
+  text-decoration: none; }
+
+.header_area {
+  background: white; }
+  .header_area .logo img {
+    width: 150px; }
+
+main {
+  background: #1a1a1a; }
+  main p {
+    color: white; }
+
+.galleries .home-thumb {
+  max-height: 500px;
+  overflow: hidden; }
+
+.story {
+  padding: 50px 0; }
+  .story .img {
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 50px;
+    margin-right: -10%;
+    margin-left: 30px; }
+  .story .box {
+    padding: 20px;
+    background: #ff7f24;
+    text-align: left;
+    margin-right: 30px; }
+    .story .box .read-more {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: black; }
+
+.slider {
+  position: relative;
+  padding: 0; }
+  .slider .btn-slider {
+    padding: 15px 30px;
+    width: fit-content;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    .slider .btn-slider:hover {
+      background-color: gold; }
+
+.slick-dots {
+  bottom: 10px;
+  position: absolute;
+  display: flex;
+  margin: auto;
+  right: 0;
+  left: 0;
+  width: fit-content; }
+  .slick-dots li.slick-active button {
+    width: 20px;
+    opacity: 1; }
+  .slick-dots li button {
+    width: 10px;
+    border-radius: 5px;
+    padding: 0;
+    overflow: hidden;
+    content: '';
+    height: 10px;
+    background-color: white;
+    opacity: .25; }
+    .slick-dots li button:before {
+      display: none; }
+
+/*# sourceMappingURL=customize.css.map */

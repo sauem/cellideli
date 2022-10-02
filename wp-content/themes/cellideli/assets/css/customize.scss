@@ -1,0 +1,125 @@
+$dark: #1a1a1a;
+$orange: #ff7f24;
+body {
+  background: $dark;
+}
+
+.txt-bold {
+  font-weight: bold;
+  color: $orange;
+}
+
+.main_menu {
+  li {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.header_area {
+  background: white;
+
+  .logo {
+    img {
+      width: 150px;
+    }
+  }
+}
+
+main {
+  background: $dark;
+
+  p {
+    color: white;
+  }
+;
+}
+
+.galleries {
+  .home-thumb {
+    max-height: 500px;
+    overflow: hidden;
+  }
+}
+.story{
+  padding: 50px 0;
+  .img{
+    width: 110%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 50px;
+    margin-right: -10%;
+    margin-left: 30px;
+  }
+  .box{
+    padding: 20px;
+    background: $orange;
+    text-align: left;
+    margin-right: 30px;
+
+    .read-more{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
+
+.slider {
+  position: relative;
+  padding: 0;
+
+  .btn-slider {
+    padding: 15px 30px;
+    width: fit-content;
+    color: $dark;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    &:hover {
+      background-color: gold;
+    }
+  }
+}
+
+.slick-dots {
+  bottom: 10px;
+  position: absolute;
+  display: flex;
+  margin: auto;
+  right: 0;
+  left: 0;
+  width: fit-content;
+
+  li {
+    &.slick-active {
+      button {
+        width: 20px;
+        opacity: 1;
+      }
+    }
+
+    button {
+      width: 10px;
+      border-radius: 5px;
+      padding: 0;
+      overflow: hidden;
+      content: '';
+      height: 10px;
+      background-color: white;
+      opacity: .25;
+
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
