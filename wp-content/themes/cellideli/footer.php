@@ -88,7 +88,7 @@
 <script src="<?= ASSET ?>/js/isotope.pkgd.min.js"></script>
 <script src="<?= ASSET ?>/js/imagesloaded.pkgd.min.js"></script>
 <script src="<?= ASSET ?>/js/jquery.magnific-popup.min.js"></script>
-<script src="<?= ASSET ?>/js/main.js"></script>
+<script src="<?= ASSET ?>/js/main.js?v=<?= time() ?>"></script>
 <?php wp_footer(); ?>
 
 </body>

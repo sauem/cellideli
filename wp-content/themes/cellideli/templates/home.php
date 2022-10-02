@@ -83,10 +83,56 @@ get_header();
     <section>
         <div class="container">
             <img width="550" class="img-fluid m-auto" src="<?= ASSET ?>/img/logo-cam.png"/>
-
         </div>
-
     </section>
+    <?php
+    query_posts([
+        'post_type' => 'testimonial',
+        'posts' => 12
+    ]);
+    if (have_posts()):
+        ?>
+        <section class="testimonial_area testimonial_bg pt-120 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="testimonial_active owl-carousel w-100 position-relative">
+                            <?php
+                            while (have_posts()): the_post();
+                                ?>
+                                <div class="tm_single white_bg">
+                                    <div class="tm_top ul_li justify-content-between">
+                                        <div class="tm_author">
+                                            <img src="<?= get_the_post_thumbnail_url() ?>" alt="">
+                                        </div>
+                                        <div class="tm_quote">
+                                            <img src="<?= ASSET ?>/img/icon/quote.png" alt="">
+                                        </div>
+                                    </div>
+                                    <p><?= get_the_excerpt() ?></p>
+                                    <div class="tm_bottom ul_li justify-content-between">
+                                        <div class="a_info">
+                                            <h4><?= get_the_title() ?></h4>
+                                        </div>
+                                        <div class="rating_wrap">
+                                            <ul class="rating_star ul_li">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fal fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endwhile; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <?php endif;
+    wp_reset_query(); ?>
 </main>
 <?php
 get_footer();
