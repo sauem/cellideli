@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sub_text d-flex justify-content-center">
-                        <h3 class="mb-5">Contact Us</h3>
+                        <h3 id="contact" class="mb-5">Contact Us</h3>
                     </div>
                 </div>
                 <div class="col-md-10 offset-md-1 text-white">

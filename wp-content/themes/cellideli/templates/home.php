@@ -15,7 +15,7 @@ get_header();
             while (have_posts()): the_post();
                 ?>
                 <div class="slide-item">
-                    <img src="<?= get_the_post_thumbnail_url() ?>" class="img-fluid"
+                    <img src="<?= get_the_post_thumbnail_url() ?>" class="img-fluid w-100"
                          alt="<?= get_post_meta(get_the_ID(), 'alt', true) ?>">
                 </div>
             <?php endwhile;
