@@ -42,6 +42,10 @@
                             </p>
                         </div>
                     </div>
+
+                    <?php
+                    do_shortcode('[wpforms id="2490"]');
+                    ?>
                 </div>
             </div>
         </div>

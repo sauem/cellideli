@@ -92,7 +92,7 @@ get_header();
     ]);
     if (have_posts()):
         ?>
-        <section class="testimonial_area testimonial_bg pt-120 pb-120">
+        <section class="testimonial_area testimonial_bg mt-md-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
