@@ -42,6 +42,14 @@ main {
       font-weight: bold;
       color: black; }
 
+.entry-header {
+  background-color: #1a1a1a !important; }
+  .entry-header .entry-title {
+    color: #ff7f24; }
+
+section.content section {
+  padding: 0 !important; }
+
 .slider {
   position: relative;
   padding: 0; }

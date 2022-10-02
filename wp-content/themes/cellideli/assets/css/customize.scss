@@ -42,9 +42,11 @@ main {
     overflow: hidden;
   }
 }
-.story{
+
+.story {
   padding: 50px 0;
-  .img{
+
+  .img {
     width: 110%;
     height: 100%;
     overflow: hidden;
@@ -53,17 +55,32 @@ main {
     margin-right: -10%;
     margin-left: 30px;
   }
-  .box{
+
+  .box {
     padding: 20px;
     background: $orange;
     text-align: left;
     margin-right: 30px;
 
-    .read-more{
+    .read-more {
       text-transform: uppercase;
       font-weight: bold;
       color: black;
     }
+  }
+}
+
+.entry-header {
+  background-color: $dark !important;
+
+  .entry-title {
+    color: $orange;
+  }
+}
+
+section.content {
+  section {
+    padding: 0 !important;
   }
 }
 
