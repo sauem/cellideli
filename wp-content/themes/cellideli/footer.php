@@ -25,15 +25,15 @@
                 <div class="col-md-10 offset-md-1 text-white">
                     <div class="row">
                         <div class="col-md-6">
-                            <p><?= info('address_1') ?></p>
+                            <p class="text-white">19227 Katy Fwy Suite #300 Houston, TX 77094</p>
                             <p><?= info('address_2') ?></p>
                         </div>
                         <div class="col-md-6">
-                            <p>
-                                <a href="tel:<?= info('hotline_1') ?>"><?= info('hotline_1') ?></a>
+                            <p class="text-white">
+                                <a href="tel:+1-(713)-715-5888 ?>">+1-(713)-715-5888</a>
                             </p>
-                            <p>
-                                <a href="tel:<?= info('hotline_1') ?>"><?= info('hotline_2') ?></a>
+                            <p class="text-white">
+                                <a class="text-white text-decoration-none" href="tel:<?= info('hotline_1') ?>"><?= info('hotline_2') ?></a>
                             </p>
                         </div>
                         <div class="col-md-6">

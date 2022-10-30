@@ -140,4 +140,19 @@ section.content section {
     .slick-dots li button:before {
       display: none; }
 
+.tm_single {
+  min-height: 400px; }
+  .tm_single .text-dark {
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;
+    /* fallback */
+    max-height: 32px;
+    /* fallback */
+    -webkit-line-clamp: 6;
+    /* number of lines to show */
+    -webkit-box-orient: vertical; }
+
 /*# sourceMappingURL=customize.css.map */
